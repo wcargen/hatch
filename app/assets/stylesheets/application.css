@@ -18,3 +18,35 @@ h1 {
 h2 {
   text-align: center;
 }
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.lazy {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lazy:hover {
+  cursor: pointer;
+  width: 350;
+  height: 572;
+  border: 20px solid black;
+  transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
