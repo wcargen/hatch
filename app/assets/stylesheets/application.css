@@ -20,8 +20,9 @@ h2 {
 }
 
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 70%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -30,8 +31,7 @@ h2 {
 }
 
 .lazy {
-  margin: 0 auto;
-  text-align: center;
+  margin: 15px 15px 15px 15px;
 }
 
 .lazy:hover {
@@ -44,9 +44,4 @@ h2 {
     -moz-transform:scale(1.5); /* Firefox */
     -webkit-transform:scale(1.5); /* Safari and Chrome */
     -o-transform:scale(1.5); /* Opera */
-}
-
-.col-centered{
-    float: none;
-    margin: 0 auto;
 }
