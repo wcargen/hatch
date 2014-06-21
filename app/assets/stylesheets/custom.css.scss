@@ -1,6 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Redressed);
 
-h1, h2 {
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Redressed", cursive;
+  padding-top: 50px;
+}
+
+h2 {
   text-align: center;
   font-weight: 900;
   font-family: "Redressed", cursive;
@@ -11,6 +18,11 @@ body {
   padding-left: 10px;
 }
 
+.title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 .container {
   width: 70%;
   max-width: 1024px;
@@ -19,7 +31,8 @@ body {
 
 .logo {
   text-align: center;
-  margin-top: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .lazy {
@@ -27,13 +40,14 @@ body {
 }
 
 .lazy:hover {
-  cursor: pointer;
+  cursor: default;
   width: 350;
   height: 572;
   border: 20px solid black;
-  transform:scale(1.5);
-    -ms-transform:scale(1.5); /* IE 9 */
-    -moz-transform:scale(1.5); /* Firefox */
-    -webkit-transform:scale(1.5); /* Safari and Chrome */
-    -o-transform:scale(1.5); /* Opera */
+  border-radius: 20px;
+  transform:scale(2.0);
+    -ms-transform:scale(2.0); /* IE 9 */
+    -moz-transform:scale(2.0); /* Firefox */
+    -webkit-transform:scale(2.0); /* Safari and Chrome */
+    -o-transform:scale(2.0); /* Opera */
 }
