@@ -19,6 +19,11 @@ h2 {
   text-align: center;
 }
 
+body {
+  padding-bottom: 75px;
+  padding-left: 10px;
+}
+
 .container {
   width: 70%;
   max-width: 1024px;
@@ -45,3 +50,5 @@ h2 {
     -webkit-transform:scale(1.5); /* Safari and Chrome */
     -o-transform:scale(1.5); /* Opera */
 }
+
+
